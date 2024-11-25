@@ -19,3 +19,5 @@ for l in lines:
     target = separated[1]
     final = target.split(" ")[1]
     os.system(f"sudo cp  {final} tesseract/lib")
+
+os.system("zip -r tesseract.zip tesseract/")
