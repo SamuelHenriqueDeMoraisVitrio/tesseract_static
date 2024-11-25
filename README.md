@@ -1,6 +1,6 @@
 # tesseract_static
 
-# Runing 
+# Install
 for runing on your os type 
 
 ```shell 
@@ -8,6 +8,13 @@ for runing on your os type
 unzip tesseract.zip
 chmod +x tesseract/tesseract
 ```
+
+# Runing 
+once  you have installed teseract , you can run with 
+```shell
+./tesseract/tesseract
+```
+
 
 # Building from scratch 
 if you want to build from sratch you must have tesseract installed and python3 installed , just clone the repo , and type 
